@@ -1,0 +1,18 @@
+env = "DEV"
+
+# Logging configuration
+[logging]
+level = "DEBUG"
+
+[settings]
+debug = true
+use_sqlite = true
+use_redis_cache = false
+db_host = "localhost"
+db_port = "5432"
+db_user = "dbadmin"
+db_password = "dbadmin1234!"
+db_name = "meta_main_db"
+celery_broker_url = 'memory://'
+celery_result_backend = 'cache'
+celery_cache_backend = 'memory'

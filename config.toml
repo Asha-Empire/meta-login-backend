@@ -1,0 +1,21 @@
+env = "PROD"
+
+# Logging configuration
+[logging]
+level = "DEBUG"
+
+[settings]
+debug = true
+use_sqlite = false
+use_redis_cache = true
+db_host = "10.134.33.33"
+db_port = "5432"
+db_user = "dbadmin"
+db_password = "dbadmin1234!"
+db_name = "meta_main_db"
+allowed_hosts = ["10.134.32.32", "10.134.32.132"]
+host_port = "9711"
+celery_broker_url = "redis://10.134.32.232:6380/0"
+celery_result_backend = "redis://10.134.32.232:6380/0"
+celery_cache_backend = 'memory'
+redis_broker_url = "redis://10.134.32.232:6380/1"
