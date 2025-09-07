@@ -10,3 +10,5 @@ Companion backend for the UE5 multiplayer template (5 core classes): secure logi
 `python manage.py makemigrations` if needed<br>
 `python manage.py migrate`<br>
 `python manage.py runserver 0.0.0.0:9711`<br>
+
+### For more info: [asha-empire.dev/docs/metalogin](https://asha-empire.dev/docs/metalogin/)
